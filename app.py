@@ -30,6 +30,6 @@ class InstagramBot:
             time.sleep(5)
             posts = bot.find_elements_by_class_name('_9AhH0')
 
-tom = InstagramBot('thetommedia@gmail.com', 'Purewater')
+tom = InstagramBot('theemail', 'thepassword')
 tom.login()
 tom.like_post('wizkidayo')
